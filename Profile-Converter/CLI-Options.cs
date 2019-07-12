@@ -51,9 +51,7 @@ namespace SFB_Profile_Converter
 
             if (string.IsNullOrEmpty(opts.DestDir))
             {
-                Globals.co.write("Dest Dir is empty");
                 opts.DestDir = Directory.GetCurrentDirectory();
-                Globals.co.write($"Dest dir = '{opts.DestDir}'");
             }
             else
             {
